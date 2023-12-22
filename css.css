@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(250, 221, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  cursor: pointer;
+  word-wrap: break-word;
+  background-color: white;
+}
+.page {
+  display: grid;
+  grid-template-columns: 350px auto;
+  width: 100vw;
+  height: 100vh;
+}
+.sidebar-header{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 265px 75px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+.sidebar-title{
+  font-size: 60px;
+  font-family: ultra;
+}
+.add-list-button {
+  font-size: 65px;
+  border-radius: 20px;
+}
+.add-list-button:hover,
+.list-name-button:hover{
+  background-color: rgb(232, 229, 229);
+}
+.list{
+  display: grid;
+  grid-template-columns: 240px 95px;
+  column-gap: 5px;
+
+  margin-bottom: 10px;
+}
+.final-add-button,
+.delete-list-button,
+.add-item-button{
+  border-radius: 15px;
+  font-size: 30px;
+  background-color: rgb(96, 255, 96);
+}
+.final-add-button:hover,
+.add-item-button:hover{
+  background-color: rgb(0, 255, 0);
+}
+.list-name-input,
+.list-name-button {
+  border-radius: 15px;
+  font-size: 30px;
+  font-family: rubik bubbles;
+  padding-left: 5px;
+}
+.list-name-button{
+  text-align: left;
+}
+.delete-list-button {
+  background-color: rgb(245, 106, 106);
+  font-size: 25px;
+}
+.delete-list-button:hover {
+  background-color: red;
+}
+
+
+
+
+
+.main-page{
+  background-color: white;
+}
+.list-title {
+  font-size: 80px;
+  font-family: rubik bubbles;
+  text-align: center;
+  word-wrap: break-word;
+  width: 875px;
+  margin-left: 0px
+}
+.enter-grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 700px 175px;
+  column-gap: 10px;
+  margin-left: 5px;
+  align-self: center;
+}
+.item-name-input{
+  border-radius: 20px;
+  text-align-last: left;
+  height: 50px;
+  font-size: 30px;
+  font-family: rubik bubbles;
+  padding-left: 10px;
+}
+.add-item-button,
+.delete-item-button{
+  border-radius: 20px;
+}
+.item {
+  display: grid;
+  grid-template-columns: 690px 175px;
+  font-size: 30px;
+  margin-left: 5px;
+  column-gap: 10px;
+  padding: 10px
+}
+.item-name{
+  text-align: left;
+}
+.delete-item-button {
+  font-size: 30px;
+  background-color: rgb(245, 106, 106);
+}
+.delete-item-button:hover{
+  background-color: red;
+}
